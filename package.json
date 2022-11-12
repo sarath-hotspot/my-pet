@@ -1,0 +1,17 @@
+{
+  "name": "my-pet",
+  "version": "1.0.0",
+  "description": "My pet on my machine",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Creative Cubs",
+  "license": "ISC",
+  "dependencies": {
+    "electron-positioner": "^4.1.0"
+  },
+  "devDependencies": {
+    "electron": "^21.2.3"
+  }
+}

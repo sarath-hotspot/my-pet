@@ -1,0 +1,18 @@
+.pet-img{
+    position:fixed;
+    right:10px;
+    bottom: 10px;
+    height: 200px;
+    width: 300px;
+}
+.exitButton { z-index: 2}
+
+body {
+    overflow: hidden
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
