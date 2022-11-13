@@ -1,17 +1,27 @@
 {
   "name": "my-pet",
   "version": "1.0.0",
-  "description": "My pet on my machine",
+  "description": "Dog and cat helps you stay away from screen.",
   "main": "src/main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
   },
   "author": "Creative Cubs",
   "license": "ISC",
   "dependencies": {
-    "electron-positioner": "^4.1.0"
+    "auto-launch": "^5.0.5",
+    "electron-log": "^4.4.8",
+    "electron-positioner": "^4.1.0",
+    "electron-squirrel-startup": "^1.0.0"
   },
   "devDependencies": {
+    "@electron-forge/cli": "^6.0.1",
+    "@electron-forge/maker-deb": "^6.0.1",
+    "@electron-forge/maker-rpm": "^6.0.1",
+    "@electron-forge/maker-squirrel": "^6.0.1",
+    "@electron-forge/maker-zip": "^6.0.1",
     "electron": "^21.2.3"
   }
 }
