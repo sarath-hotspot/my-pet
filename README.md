@@ -1,4 +1,7 @@
 
+# How install this app? 
+[Download From Here](./releases/my-pet-win32-x64.zip)
+
 # What is this app about?
 Do you use screen a lot? Do you love dogs and cats? 
 <b> 
